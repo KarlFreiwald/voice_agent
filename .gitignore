@@ -1,0 +1,33 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+secrets/
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build output
+build/
+dist/
+
+# Private conversation artifacts and local logs
+recordings/
+transcripts/
+logs/
+*.log
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
